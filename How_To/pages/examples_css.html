@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplos CSS</title>
+        <link rel="stylesheet" href="../css/MyCity.css">
+        <style>
+            .Code_Example{
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body style="background-color: wheat; font-family: 'Comic Sans MS', 'Comic Sans', 'Comic Neue', cursive;">
+        <div id="HeaderMyCity" style="margin-bottom: 20px;">
+            <h1 style="text-align: center;">Exemplo de alguns Seletores CSS</h1>
+        </div>
+        
+        <div class="Container">
+            <div id="AllExamplesTags" style="width: 100%;">
+                <ul>
+                    <li><a href="../index.html">Página Principal</a></li>
+                    <li><a href="./examples_tags.html">Exemplos Tags</a></li>
+                </ul>
+                <div class="InTaiacu">
+                    <h2 id="Seletor_por_tag" style="margin: 0;">Seletor por tag</h2>
+                    <hr style="border-color: #99b34a; border-style: dashed;">
+                    <p class="TextToInTaiacu">Seletor por tag.</p>
+                    <p class="TextToInTaiacuTwo">Css:</p>
+                    <div class="Css_Example">
+                        <pre><span class="text_tag_blue">span<span class="text_tag_gray">{</span></span></pre>
+                        <pre class="tag_margin"><span class="text_tag_red">background-color</span>: skyblue;</pre>
+                        <pre><span class="text_tag_gray">}</span></pre>
+                    </div>
+                    <p class="TextToInTaiacuTwo">Html:</p>
+                    <div class="Code_Example">
+                        <pre>&lt;<span class="text_tag_green">span</span>&gt;Texto com tag "span".&lt;<span class="text_tag_green">/span</span>&gt;</pre>
+                        <pre>&lt;<span class="text_tag_green">p</span>&gt;Texto com tag "p".&lt;<span class="text_tag_green">/p</span>&gt;</pre>
+                    </div>
+                    <p class="TextToInTaiacuTwo">Resultado:</p>
+                    <div class="Result_Example">
+                        <pre style="background-color: skyblue;">Texto com tag "span".</pre>
+                        <pre>Texto com tag "p".</pre>
+                    </div>
+                    <div class="LinksFonts">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors" target="_blank">Mais Informações</a>
+                    </div>
+                </div>
+                <div class="InTaiacu">
+                    <h2 id="Seletor_por_classe" style="margin: 0;">Seletor por classe</h2>
+                    <hr style="border-color: #99b34a; border-style: dashed;">
+                    <p class="TextToInTaiacu">Seletor por classe.</p>
+                    <p class="TextToInTaiacuTwo">Css:</p>
+                    <div class="Css_Example">
+                        <pre><span class="text_tag_blue">.red<span class="text_tag_gray">{</span></span></pre>
+                        <pre class="tag_margin"><span class="text_tag_red">color</span>: #f33;</pre>
+                        <pre><span class="text_tag_gray">}</span></pre>
+                        <pre><span class="text_tag_blue">.yellow-bg<span class="text_tag_gray">{</span></span></pre>
+                        <pre class="tag_margin"><span class="text_tag_red">background</span>: #ffa;</pre>
+                        <pre><span class="text_tag_gray">}</span></pre>
+                    </div>
+                    <p class="TextToInTaiacuTwo">Html:</p>
+                    <div class="Code_Example">
+                        <pre>&lt;<span class="text_tag_green">p</span>&gt;parágrafo com classe ".red".&lt;<span class="text_tag_green">/p</span>&gt;</pre>
+                        <pre>&lt;<span class="text_tag_green">p</span>&gt;parágrafo com classe ".yellow-bg".&lt;<span class="text_tag_green">/p</span>&gt;</pre>
+                        <pre>&lt;<span class="text_tag_green">p</span>&gt;parágrafo sem classe&lt;<span class="text_tag_green">/p</span>&gt;</pre>
+                    </div>
+                    <p class="TextToInTaiacuTwo">Resultado:</p>
+                    <div class="Result_Example">
+                        <pre class="text_tag_red">parágrafo com classe ".red".</pre>
+                        <pre style="background-color: #ffa;">parágrafo com classe ".yellow-bg".</pre>
+                        <pre>parágrafo sem classe</pre>
+                    </div>
+                    <div class="LinksFonts">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors" target="_blank">Mais Informações</a>
+                    </div>
+                </div>
+                <div class="InTaiacu">
+                    <h2 id="Seletor_por_id" style="margin: 0;">Seletor por ID</h2>
+                    <hr style="border-color: #99b34a; border-style: dashed;">
+                    <p class="TextToInTaiacu">Seletor por ID.</p>
+                    <p class="TextToInTaiacuTwo">Css:</p>
+                    <div class="Css_Example">
+                        <pre><span class="text_tag_blue">#identified <span class="text_tag_gray">{</span></span></pre>
+                        <pre class="tag_margin"><span class="text_tag_red">background-color</span>: skyblue;</pre>
+                        <pre><span class="text_tag_gray">}</span></pre>
+                    </div>
+                    <p class="TextToInTaiacuTwo">Html:</p>
+                    <div class="Code_Example">
+                        <pre>&lt;<span class="text_tag_green">p <span class="text_tag_red">id</span>="<span class="text_tag_green">identified</span>"</span>&gt;parágrafo com identificador "#identified".&lt;<span class="text_tag_green">/p</span>&gt;</pre>
+                        <pre>&lt;<span class="text_tag_green">p</span>&gt;parágrafo sem identificador&lt;<span class="text_tag_green">/p</span>&gt;</pre>
+                    </div>
+                    <p class="TextToInTaiacuTwo">Resultado:</p>
+                    <div class="Result_Example">
+                        <pre style="background-color: skyblue;">parágrafo com identificador "#identified".</pre>
+                        <pre>parágrafo sem identificador</pre>
+                    </div>
+                    <div class="LinksFonts">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors" target="_blank">Mais Informações</a>
+                    </div>
+                </div>
+                <div class="InTaiacu">
+                    <h2 id="Seletor_Universal" style="margin: 0;">Seletor Universal</h2>
+                    <hr style="border-color: #99b34a; border-style: dashed;">
+                    <p class="TextToInTaiacu">Seletor Universal.</p>
+                    <p class="TextToInTaiacuTwo">Css:</p>
+                    <div class="Css_Example">
+                        <pre><span class="text_tag_gray">/*Seleciona todos os elementos*/</span></pre>
+                        <pre><span class="text_tag_blue">*<span class="text_tag_gray">{</span></span></pre>
+                        <pre class="tag_margin"><span class="text_tag_red">background</span>: skyblue;</pre>
+                        <pre class="tag_margin"><span class="text_tag_red">color</span>: blue;</pre>
+                        <pre><span class="text_tag_gray">}</span></pre>
+                    </div>
+                    <p class="TextToInTaiacuTwo">Html:</p>
+                    <div class="Code_Example">
+                        <pre>&lt;<span class="text_tag_green">span</span>&gt;Texto com tag "span".&lt;<span class="text_tag_green">/span</span>&gt;</pre>
+                        <pre>&lt;<span class="text_tag_green">p</span>&gt;Texto com tag "p".&lt;<span class="text_tag_green">/p</span>&gt;</pre>
+                        <pre>&lt;<span class="text_tag_green">pre</span>&gt;Texto com tag "pre".&lt;<span class="text_tag_green">/pre</span>&gt;</pre>
+                    </div>
+                    <p class="TextToInTaiacuTwo">Resultado:</p>
+                    <div class="Result_Example">
+                        <pre class="text_tag_blue" style="background-color: skyblue;">Texto com tag "span".</pre>
+                        <pre class="text_tag_blue" style="background-color: skyblue;">Texto com tag "p".</pre>
+                        <pre class="text_tag_blue" style="background-color: skyblue;">Texto com tag "pre".</pre>
+                    </div>
+                    <div class="LinksFonts">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors" target="_blank">Mais Informações</a>
+                    </div>
+                </div>
+                <div class="InTaiacu">
+                    <h2 id="Seletor_por_atributo" style="margin: 0;">Seletor por atributo</h2>
+                    <hr style="border-color: #99b34a; border-style: dashed;">
+                    <p class="TextToInTaiacu">Seletor por atributo.</p>
+                    <p class="TextToInTaiacuTwo">Css:</p>
+                    <div class="Css_Example">
+                        <pre><span class="text_tag_gray">/* Links internos, começando com "#" */</span></pre>
+                        <pre><span class="text_tag_blue">a[href^="#"]<span class="text_tag_gray">{</span></span></pre>
+                        <pre class="tag_margin"><span class="text_tag_red">background</span>: skyblue;</pre>
+                        <pre class="tag_margin"><span class="text_tag_red">color</span>: red;</pre>
+                        <pre><span class="text_tag_gray">}</span></pre>
+                    </div>
+                    <p class="TextToInTaiacuTwo">Html:</p>
+                    <div class="Code_Example">
+                        <pre>&lt;<span class="text_tag_green">a <span class="text_tag_red">href</span>="<span class="text_tag_green">#top</span>"</span>&gt;TAG 'a' com atributo 'href="#top"'.&lt;<span class="text_tag_green">/a</span>&gt;</pre>
+                    </div>
+                    <p class="TextToInTaiacuTwo">Resultado:</p>
+                    <div class="Result_Example">
+                        <pre class="text_tag_red" style="background-color: skyblue;">TAG 'a' com atributo 'href="#top"'.</pre>
+                    </div>
+                    <div class="LinksFonts">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors" target="_blank">Mais Informações</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+        

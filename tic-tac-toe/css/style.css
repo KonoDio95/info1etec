@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+}
+
+#container{
+    height: 500px;
+    width: 500px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    margin: auto;
+}
+.tic{
+    display: flex;
+    flex-direction: row;
+    height: calc(100% / 3);
+}
+.tac{
+    height: 100%;
+    width: calc(100% / 3);
+    border: 1px solid;
+    cursor: pointer;
+    text-align: center;
+    font-size: 150px;
+}
+
+
+.button-1{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}

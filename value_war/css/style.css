@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    padding: 10px;
+}
+#Container{
+    max-width: 50%;
+    height: 25%;
+}
+
+
+table{
+    border: 1px solid black;
+}
+th{
+    text-transform: uppercase;
+    background-color: #ff8b8b;
+}
+th, td:first-child{
+    font-weight: bold;
+    text-align: center;
+}
+tr{
+
+}
+td{
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+iframe {
+	width: 400px;
+	max-height: 100%;
+}

@@ -1,0 +1,35 @@
+body{
+    background-color: #fff69e;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+img{
+    user-select: none;
+}
+
+#Container_All {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    max-width: 1050px;
+    margin: auto;
+}
+
+#Tags_Html {
+    max-width: 500px;
+    background-color: #85ebff;
+    padding: 5px;
+    border: 2px solid #bbbbbb;
+}
+.Links_Others {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Elements_Css {
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 5px;
+    border: 2px solid #6e6e6e;
+}

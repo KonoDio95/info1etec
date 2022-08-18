@@ -1,0 +1,113 @@
+/*MyCity Html*/
+img{
+    user-select: none;
+}
+/*Tudo*/
+.Container{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /*font-family: "Comic Sans MS", "Comic Sans", cursive;*/
+}
+/*Partes da Cidade*/
+.InTaiacu {
+    padding: 5px;
+    background-color: white;
+    border: 2px solid #a9a9a9;
+    margin-bottom: 20px;
+}
+.InTaiacu .ImgInTaiacu{
+    /* display: inline-block; */
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
+    /* border: 2px double green; */
+    padding: 2px;
+    /* margin-right: 10px; */
+    margin: auto;
+    margin-bottom: 20px;
+    /* float: left; */
+}
+.InTaiacu .CopyTextToInTaiacu{
+    display: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.InTaiacu .LinksFonts{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    user-select: none;
+    margin-top: 10px;
+    width: 100%;
+}
+.TextToInTaiacuTwo{
+    margin: 0;
+}
+.Code_Example{
+    display: block;
+    /* width: 98%; */
+    padding: 1%;
+    background-color: #cdcdcd;
+    border-radius: 10px;
+    margin: auto;
+}
+.Css_Example{
+    display: block;
+    /* width: 98%; */
+    padding: 1%;
+    background-color: #cdcdcd;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.Result_Example{
+    display: block;
+    /* width: 98%; */
+    padding: 1%;
+    border: 2px solid black;
+    margin: auto;
+}
+.tags_div_margin {
+    margin-left: 5%;
+}
+.tag_margin{
+    margin-left: 5%;
+}
+.text_tag_green {
+    color: green;
+}
+.text_tag_gray {
+    color: gray;
+}
+.text_tag_red {
+    color: red;
+}
+.text_tag_blue {
+    color: blue;
+}
+
+#OtherInformationsTaiacu{
+    display: inline;
+    background-color: white;
+    height: 500px;
+    padding: 5px;
+    border: 2px solid #cfc296;
+}
+
+@media only screen and (max-width: 800px) {
+    .Container {
+        flex-direction: column;
+    }
+    .InTaiacu .ImgInTaiacu {
+        display: block;
+        margin: auto;
+        border: 0;
+        padding: 0;
+        float: unset;
+    }
+}
